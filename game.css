@@ -1,0 +1,26 @@
+html {margin:0; padding:0;}
+body {margin:0; padding:0; font-family:"Microsoft YaHei"; font-size:14px; color:#333;}
+.center{margin: 0 auto; text-align: center;}
+.container{ width: 100%; min-width: 320px; max-width: 640px;overflow: hidden;margin:100px auto;}
+.btn{ position: absolute;top:40%; left: 50%; width: 200px; height: 60px; line-height: 60px ;margin-left: -100px ;background:#f60; z-index: 99; font-size: 28px; color:#fff; text-align: center; border-radius: 5px; cursor: pointer;}
+.btnStart:hover{background:#f74b08;}
+.road-box{width: 100%; overflow: hidden; position: relative;}
+.road{width:25%; height:500px;float: left; color:#fff; position: relative; cursor: pointer;}
+.road1{background:#eaeaea;}
+.road2{background:#d8d8d8;}
+.road3{background:#eaeaea;}
+.road4{background:#d8d8d8;}
+.block{position: absolute; top:-20%; left: 50%; margin-left: -20px ;width: 40px; height: 40px; background:url(img/block.gif) center no-repeat; background-size: 100%;}
+.middle-line{ position:absolute; top: 0; left: 50% ;width:4px; height:500px; margin-left: -2px ;background:yellow; z-index: 98; }
+.side-line{position:absolute; top: 0;width:3px; height: 500px; z-index: 98;}
+.line-L{left: 0;border-left:3px dashed yellow;}
+.line-R{right: 0;border-right:3px dashed yellow;}
+@-webkit-keyframes line-move{0%{ top:0;}100%{ top:10px;}}
+#car1,#car2{position: absolute; bottom: 0; margin-left: -20px;width: 40px; height: 40px; background-size: 100%;}
+#car1{background: url(img/car1.gif) center no-repeat;}
+#car2{background: url(img/car2.gif) center no-repeat;}
+.pos0{left:12.5%;}
+.pos1{left:37.5%;}
+.pos2{left:62.5%;}
+.pos3{left:87.5%;}
+#score{ position: absolute; top:0; left:0; width: 100%; height: 60px; font-size:46px; text-align: center; z-index: 98; color: red;}

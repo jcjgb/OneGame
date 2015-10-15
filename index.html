@@ -4,37 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 		<meta name="format-detection" content="telephone=no"/>
-		<title>嘉诚信息股份有限公司</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="game.css">
+		<title>Game</title>
 		<script type="text/javascript" src="jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<h1 class="center">休闲小游戏(一心两用)</h1><h4 class="center">2015.8.11</h4>
-			<div class="btn" id="btnStart">开 始</div>
-			<div class="road-box">
-				<div class="middle-line"></div>
-				<div class="side-line line-L"></div>
-				<div class="side-line line-R"></div>
-				<div class="road road1">
-					<div class="block" id="block1"></div>
-				</div>
-				<div class="road road2">
-					<div class="block" id="block2"></div>
-				</div>
-				<div class="road road3">
-					<div class="block" id="block3"></div>
-				</div>
-				<div class="road road4">
-					<div class="block" id="block4"></div>
-				</div>
-				<div id="car1" class="pos0"></div>
-				<div id="car2" class="pos2"></div>
-				<div id="score">0</div>
-			</div>
+		<div>
+			<h1 style="text-align:center;">休闲小游戏(一心两用)</h1>
 		</div>
-		<script type="text/javascript" src="game.js"></script>
-		<a href="https://github.com/jcjgb/OneGame" class="forkme">Fork me on GitHub</a>
+		<div id="geme"></div>
+		<script type="text/javascript" src="onegame.js"></script>
+		<script type="text/javascript">
+			$('#geme').mind();
+		</script>
 	</body>
 </html>

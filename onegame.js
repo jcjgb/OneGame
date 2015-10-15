@@ -1,7 +1,7 @@
 /**
  * [OneGame 一心二用小游戏]
- * @author 戈志刚
- * @param {[type]} Object
+ * @author 	戈志刚
+ * @param 	{[type]} Object
  */
 !(function($) {
 	function OneGame(options, ele) {
@@ -11,7 +11,7 @@
 
 	OneGame.DEFAULT = {
 		title: '休闲小游戏(一心两用)',
-		width: 640,
+		width: 400,
 		height: 556,
 		style : {
 			btn  : null,
